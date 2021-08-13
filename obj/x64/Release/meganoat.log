@@ -1,0 +1,29 @@
+﻿  fileops.cpp
+  main.cpp
+  meganoat.cpp
+  Info: Boost.Config is older than your compiler version - probably nothing bad will happen - but you may wish to look for an update Boost version.  Define BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE to suppress this message.
+  Info: Boost.Config is older than your compiler version - probably nothing bad will happen - but you may wish to look for an update Boost version.  Define BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE to suppress this message.
+d:\repositories\other\openframeworks\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\libs\openframeworks\math\ofmatrix4x4.h(326): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data (compiling source file src\main.cpp)
+d:\repositories\other\openframeworks\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\libs\openframeworks\math\ofmatrix4x4.h(331): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data (compiling source file src\main.cpp)
+d:\repositories\other\openframeworks\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\libs\openframeworks\math\ofmatrix4x4.h(912): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data (compiling source file src\main.cpp)
+d:\repositories\other\openframeworks\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\libs\openframeworks\math\ofmatrix4x4.h(913): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data (compiling source file src\main.cpp)
+d:\repositories\other\openframeworks\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\libs\openframeworks\math\ofmatrix4x4.h(914): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data (compiling source file src\main.cpp)
+d:\repositories\other\openframeworks\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\libs\openframeworks\math\ofmatrix4x4.h(915): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data (compiling source file src\main.cpp)
+d:\repositories\other\openframeworks\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\libs\openframeworks\math\ofmatrix4x4.h(326): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data (compiling source file src\meganoat.cpp)
+d:\repositories\other\openframeworks\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\libs\openframeworks\math\ofmatrix4x4.h(331): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data (compiling source file src\meganoat.cpp)
+d:\repositories\other\openframeworks\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\libs\openframeworks\math\ofmatrix4x4.h(912): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data (compiling source file src\meganoat.cpp)
+d:\repositories\other\openframeworks\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\libs\openframeworks\math\ofmatrix4x4.h(913): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data (compiling source file src\meganoat.cpp)
+d:\repositories\other\openframeworks\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\libs\openframeworks\math\ofmatrix4x4.h(914): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data (compiling source file src\meganoat.cpp)
+d:\repositories\other\openframeworks\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\libs\openframeworks\math\ofmatrix4x4.h(915): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data (compiling source file src\meganoat.cpp)
+  KeyValue.cpp
+d:\repositories\other\openframeworks\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\apps\myapps\meganoat\src\kv\keyvalue.cpp(408): warning C4715: 'KeyValue::Add': not all control paths return a value
+     Creating library bin\meganoat.lib and object bin\meganoat.exp
+  LINK : /LTCG specified but no code generation required; remove /LTCG from the link command line to improve linker performance
+  meganoat.vcxproj -> D:\Repositories\Other\openFrameworks\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\apps\myApps\meganoat\bin\meganoat.exe
+  
+  	                   2	D:\Repositories\Other\openFrameworks\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\libs\fmod\lib\vs\x64\
+  	  *EXTRA File 		 6942208	D:\Repositories\Other\openFrameworks\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\apps\myApps\meganoat\bin\FreeImage.dll
+  
+  	                   1	D:\Repositories\Other\openFrameworks\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\libs\FreeImage\lib\vs\x64\
+  	  *EXTRA File 		 1826304	D:\Repositories\Other\openFrameworks\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\apps\myApps\meganoat\bin\fmod.dll
+  	  *EXTRA File 		 2041856	D:\Repositories\Other\openFrameworks\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\apps\myApps\meganoat\bin\fmodL.dll

@@ -1,0 +1,25 @@
+﻿  basestate.cpp
+  fileops.cpp
+  gamestate.cpp
+  main.cpp
+  map.cpp
+  meganoat.cpp
+  Info: Boost.Config is older than your compiler version - probably nothing bad will happen - but you may wish to look for an update Boost version.  Define BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE to suppress this message.
+  Info: Boost.Config is older than your compiler version - probably nothing bad will happen - but you may wish to look for an update Boost version.  Define BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE to suppress this message.
+  Info: Boost.Config is older than your compiler version - probably nothing bad will happen - but you may wish to look for an update Boost version.  Define BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE to suppress this message.
+  Info: Boost.Config is older than your compiler version - probably nothing bad will happen - but you may wish to look for an update Boost version.  Define BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE to suppress this message.
+  Info: Boost.Config is older than your compiler version - probably nothing bad will happen - but you may wish to look for an update Boost version.  Define BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE to suppress this message.
+  KeyValue.cpp
+d:\repositories\other\openframeworks\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\apps\myapps\meganoat\src\kv\keyvalue.cpp(408): warning C4715: 'KeyValue::Add': not all control paths return a value
+     Creating library bin\meganoat_debug.lib and object bin\meganoat_debug.exp
+  meganoat.vcxproj -> D:\Repositories\Other\openFrameworks\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\apps\myApps\meganoat\bin\meganoat_debug.exe
+  
+  	                   2	D:\Repositories\Other\openFrameworks\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\libs\fmod\lib\vs\Win32\
+  	  *EXTRA File 		 6942208	D:\Repositories\Other\openFrameworks\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\apps\myApps\meganoat\bin\FreeImage.dll
+  	    Newer     		 1544704	D:\Repositories\Other\openFrameworks\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\libs\fmod\lib\vs\Win32\fmod.dll
+  	    Newer     		 1733120	D:\Repositories\Other\openFrameworks\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\libs\fmod\lib\vs\Win32\fmodL.dll
+  
+  	                   1	D:\Repositories\Other\openFrameworks\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\libs\FreeImage\lib\vs\Win32\
+  	  *EXTRA File 		 1544704	D:\Repositories\Other\openFrameworks\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\apps\myApps\meganoat\bin\fmod.dll
+  	  *EXTRA File 		 1733120	D:\Repositories\Other\openFrameworks\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\apps\myApps\meganoat\bin\fmodL.dll
+  	    Newer     		 6018560	D:\Repositories\Other\openFrameworks\of_v0.11.2_vs2017_release\of_v0.11.2_vs2017_release\libs\FreeImage\lib\vs\Win32\FreeImage.dll
