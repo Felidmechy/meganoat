@@ -23,8 +23,8 @@ void meganoat::ChangeState(IBaseState* pNewState)
 {
 	if (g_pmeganoat->m_pState)
 	{
-		g_pmeganoat->m_pState->release();
 		ofLog(OF_LOG_NOTICE, "Changing State from %s to %s", g_pmeganoat->m_pState->m_sStateName, pNewState->m_sStateName);
+		g_pmeganoat->m_pState->release();
 	}
 	else
 	{

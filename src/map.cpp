@@ -1,5 +1,6 @@
 #include "map.h"
 #include "meganoat.h"
+#include "failstate.h"
 
 void IMapEvent::OnReached()
 {
@@ -13,7 +14,7 @@ void CKeyEvent::OnReached()
 	key.m_iCreationTime = m_iTime;
 	key.m_iHitTime = m_iHitTime;
 	key.m_iChannel = m_iChannel;
-	key.m_iDeletionTime = key.m_iCreationTime + m_pMap->m_iTimeToEnd + m_pMap->m_iCreationOffset;
+	key.m_iDeletionTime = key.m_iCreationTime + m_pMap->m_iTimeToEnd;
 
 	key.m_flSpeed = (float)(m_pMap->m_pGameState->m_iHitNoteY) / (m_pMap->m_iTimeToHit);
 
@@ -63,6 +64,12 @@ void CMap::update()
 			break;
 		}
 		m_Keys.pop_front();
+		m_pGameState->m_flHealth = ofClamp(m_pGameState->m_flHealth - 10, 0, 100);
+		if (m_pGameState->m_flHealth - 10 <= 0)
+		{
+			meganoat::ChangeState(new CFailState);
+			break;
+		}
 	}
 }
 
@@ -154,12 +161,13 @@ bool CMap::ParseMap(std::string sMapName)
 					speed.seekp(std::ios::beg);
 					continue;
 				}
-				CSpeedChange *speedchange = new CSpeedChange();
 				int finaltime = std::stoi(time.str());
 				int finalspeed = std::stof(speed.str());
 
 				time.seekp(std::ios::beg);
 				speed.seekp(std::ios::beg);
+
+				CSpeedChange* speedchange = new CSpeedChange();
 
 				speedchange->m_iTime = finaltime;
 				speedchange->m_flSpeed = finalspeed;
@@ -253,14 +261,24 @@ bool CMap::ParseMap(std::string sMapName)
 	{
 		if (buf[i] == '\n')
 		{
-			CKeyEvent *key = new CKeyEvent();
 			int finaltime = std::stoi(time.str());
 			int finalchannel = std::stoi(channel.str());
 
 			time.seekp(std::ios::beg);
 			channel.seekp(std::ios::beg);
 
-			key->m_iTime = std::max(0,finaltime - m_iCreationOffset);
+			if (finalchannel > 3)
+			{
+				parsingtime = true;
+				parsingchannel = false;
+				parsingjunk = false;
+				skip = false;
+				continue;
+			}
+
+			CKeyEvent* key = new CKeyEvent();
+
+			key->m_iTime = finaltime - m_iTimeToHit;
 			key->m_iHitTime = finaltime;
 			key->m_iChannel = finalchannel;
 			key->m_pMap = this;

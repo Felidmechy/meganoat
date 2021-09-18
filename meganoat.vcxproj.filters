@@ -22,6 +22,9 @@
     <ClCompile Include="src\basestate.cpp">
       <Filter>src\states</Filter>
     </ClCompile>
+    <ClCompile Include="src\failstate.cpp">
+      <Filter>src\states</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="src">
@@ -54,6 +57,9 @@
       <Filter>src\states</Filter>
     </ClInclude>
     <ClInclude Include="src\gamestate.h">
+      <Filter>src\states</Filter>
+    </ClInclude>
+    <ClInclude Include="src\failstate.h">
       <Filter>src\states</Filter>
     </ClInclude>
   </ItemGroup>

@@ -189,6 +189,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="src\basestate.cpp" />
+    <ClCompile Include="src\failstate.cpp" />
     <ClCompile Include="src\fileops.cpp" />
     <ClCompile Include="src\gamestate.cpp" />
     <ClCompile Include="src\kv\KeyValue.cpp" />
@@ -198,6 +199,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\basestate.h" />
+    <ClInclude Include="src\failstate.h" />
     <ClInclude Include="src\fileops.h" />
     <ClInclude Include="src\gamestate.h" />
     <ClInclude Include="src\kv\KeyValue.h" />

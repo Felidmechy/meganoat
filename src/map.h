@@ -89,9 +89,9 @@ public:
 	//a constant for how fast keys move on the screen
 	float m_flKeySpeed;
 	//the amount of ms the keys should be visually spawned before the hit time
-	int m_iCreationOffset = std::max(m_iTimeToHit, 300);
+	//int m_iCreationOffset = std::max(m_iTimeToHit, 300);
 	//the time in ms between creation and hit for notes
-	int m_iTimeToHit = 200;
+	int m_iTimeToHit = 400;
 	//the time in ms bwteen creation and end for notes
 	int m_iTimeToEnd;
 
